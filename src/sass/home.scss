@@ -1,0 +1,72 @@
+.hero{
+    position: relative;
+  
+    h1 {
+        position: absolute;
+        top: 40%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 05vw;
+        font-weight: bold;
+        text-align: center;
+    }
+    h2{ position: absolute;
+        top: 60%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 04vw;
+        text-align: center;
+
+    }
+  
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+.btn{
+    background-color: #0d6efd;
+    color: white;
+    position: absolute;
+        top: 80%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 03vw;
+        text-align: center;
+}
+
+.hero2{
+    background-color:#EEE ;
+
+}
+
+.apropos{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  
+
+    h4{
+        font-size: 03vw;
+        font-weight:normal;     
+
+    }
+
+    h1{
+        font-weight: bold;
+    }
+    label {
+        padding-right: 10px;
+        padding-left: 10px;
+        }
+
+    .file{
+        font-size: 0.25vw;
+       text-transform:uppercase;
+    }
+}

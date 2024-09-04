@@ -1,10 +1,13 @@
-
+import Header from '../assets/components/Header'
 
 const Services = () => {
     return (
-        <div>
-            <h1>Page Services</h1>
+        <section id="services">
+            <Header/>
+        <div className="contenair mt-5 text-dark">
+                       <h2>La page service</h2>
         </div>
+        </section>
     );
 };
 
