@@ -1,5 +1,6 @@
 .hero{
     position: relative;
+    display:flex;
   
     h1 {
         position: absolute;
@@ -11,14 +12,14 @@
         font-weight: bold;
         text-align: center;
     }
+
     h2{ position: absolute;
         top: 60%;
         left: 50%; 
         transform: translate(-50%, -50%);
         color: white;
         font-size: 04vw;
-        text-align: center;
-
+        font-weight: bold;
     }
   
     img {
@@ -40,33 +41,5 @@
         text-align: center;
 }
 
-.hero2{
-    background-color:#EEE ;
 
-}
 
-.apropos{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-  
-
-    h4{
-        font-size: 03vw;
-        font-weight:normal;     
-
-    }
-
-    h1{
-        font-weight: bold;
-    }
-    label {
-        padding-right: 10px;
-        padding-left: 10px;
-        }
-
-    .file{
-        font-size: 0.25vw;
-       text-transform:uppercase;
-    }
-}
