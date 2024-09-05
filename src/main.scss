@@ -1,5 +1,6 @@
 @import "./sass/app";
 @import"./sass/home";
+@import"./sass/services";
 
 /*GLOBAL*/
 body {
@@ -18,6 +19,9 @@ body {
         }
         h4{
         color:#1e1e1e;
+        }
+    .italic{
+font-style: italic;
     }
 }
 //@import '~bootstrap/scss/bootstrap';

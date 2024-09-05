@@ -11,7 +11,7 @@ const Header = () => {
      id="mainNav"
    >
      <div className="container">
-       <Link className="navbar-brand text-light" to="/#accueil">Jane Doe</Link>
+       <Link className="navbar-brand text-light" to="/">Jane Doe</Link>
        <button
          className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
          type="button"
