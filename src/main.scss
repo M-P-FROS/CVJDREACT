@@ -1,0 +1,27 @@
+@import "./sass/app";
+@import"./sass/home";
+@import"./sass/services";
+
+/*GLOBAL*/
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    background-color:#EEE ;
+    color:#444;
+    h1{
+    color:#1e1e1e;
+      }
+    h2{
+    color:#1e1e1e;
+    }
+    h3{
+    color:#1e1e1e;
+        }
+        h4{
+        color:#1e1e1e;
+        }
+    .italic{
+font-style: italic;
+    }
+}
+//@import '~bootstrap/scss/bootstrap';

@@ -1,0 +1,64 @@
+.hero{
+    position: relative;
+    display:flex;
+  
+    h1 {
+        position: absolute;
+        top: 40%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 05vw;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    h2{ position: absolute;
+        top: 60%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 04vw;
+        font-weight: bold;
+    }
+  
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+.btn{
+    background-color: #0d6efd;
+    color: white;
+    position: absolute;
+        top: 80%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 03vw;
+        text-align: center;
+}
+
+.banner{
+    img{
+      min-height: max-content;
+        width:100%;
+    }
+    
+}
+
+.herobis{
+    background-color: #EEE;
+    font-size: 1.9vw;
+}
+.apropos{
+    background-color: white;
+}
+.mescompetences{
+    background-color: white;
+    
+}
+
+
