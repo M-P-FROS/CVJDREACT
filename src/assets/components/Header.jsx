@@ -26,21 +26,17 @@ const Header = () => {
        <div className="collapse navbar-collapse" id="navbarResponsive">
          <ul className="navbar-nav ms-auto">
            <li className="nav-item mx-0 mx-lg-1">
-             <Link className="nav-link py-3 px-0 px-lg-3 text-light rounded" to = "/services">Services</Link
-             >
+             <Link className="nav-link py-3 px-0 px-lg-3 text-light rounded" to = "/services">Services</Link>
            </li>
            <li className="nav-item mx-0 mx-lg-1">
-           <Link className="nav-link py-3 px-0 px-lg-3 text-light rounded" to = "/realisations">Realisations</Link
-           >
+           <Link className="nav-link py-3 px-0 px-lg-3 text-light rounded" to = "/realisations">Realisations</Link>
            </li>
            <li className="nav-item mx-0 mx-lg-1">
-           <Link className="nav-link py-3 px-0 px-lg-3 text-light rounded" to = "/blog">Blog</Link
-           >
+           <Link className="nav-link py-3 px-0 px-lg-3 text-light rounded" to = "/blog">Blog</Link>
               </li>
            <li className="nav-item mx-0 mx-lg-1">
-           <Link className="nav-link py-3 px-0 px-lg-3 text-light rounded" to = "/contacts">Me contacter</Link
-                           >
-           </li>
+           <Link className="nav-link py-3 px-0 px-lg-3 text-light rounded" to = "/contacts">Me contacter</Link>
+           </li>          
          </ul>
        </div>
      </div>

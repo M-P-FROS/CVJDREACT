@@ -2,83 +2,72 @@ import Header from '../assets/components/Header'
 import Footer from '../assets/components/Footer'
 import Banner from '../assets/components/Banner';
 
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 
 const Realisations = () => {
     return (
         <section id="realisations">
-            <Header/>
+                     <Header/>
             <Banner/>
           <div className="entête text-center ">
             <h1 className='text-uppercase font-weight-bold'>porfolio</h1>
             <p> Voici quelques unes de mes réalisations</p>
-            <hr className="w-25 mx-auto border border-primary border-3 opacity-100"/>              
+            <hr className="w-25 mx-auto border border-primary bg-primary border-3 opacity-100"/>              
         </div>
 
         <div className='Realisationcard'>
-            <Row xs={1} md={2}  lg={3} className="g-4">
-      
-      
-      
-      {Array.from({ length: 1 }).map((_, idx) => (
-       
-       <Col key={idx}>
-          <Card>
-            <Card.Img variant="top" src="images/imgportfolio/fresh-food.jpg" />
-            <Card.Body>
-              <Card.Title className='text-center'>
-                <h3>Fresh food</h3>
-              </Card.Title>
-              <Card.Text>
-               Realisation d&apos;un site avec commande en ligne
-              </Card.Text> 
-              <Card.Text className='bascard text-center'>
-               Site réalisé avec PHP et MySQL
-              </Card.Text>  
-              <Button variant="outline-primary">Primary</Button>{' '}                 
-              </Card.Body>    
-              </Card>
-          
-            
-              <Card>
-              <Card.Img variant="top" src="images/imgportfolio/restaurant-japonais.jpg" />
-              <Card.Body>
-              <Card.Title className='text-center'>
-                <h3>Restaurant AKIRA</h3>
-              </Card.Title>
-              <Card.Text>
-               Realisation d&apos;un site avec commande en ligne
-              </Card.Text>                          
-              <Card.Text className='bascard text-center'>
-               Site réalisé avec PHP et MySQL
-              </Card.Text>         
-              </Card.Body>
-              </Card>
-              
+        <div className="row row-cols-1 row-cols-md-2  row-cols-lg-3 g-4">
 
-              <Card>
-            <Card.Img variant="top" src="images/imgportfolio/espace-bien-etre.jpg" />
-            <Card.Body>
-              <Card.Title className='text-center'>
-                <h3>Espace bien-être</h3>
-              </Card.Title>
-              <Card.Text>
-               Realisation d&apos;un site avec commande en ligne
-              </Card.Text>                                   
-              <Card.Text className='bascard text-center'>
-               Site réalisé avec PHP et MySQL
-              </Card.Text>             
-              </Card.Body>
-              </Card>
-           
-        </Col>
-      ))}
-    </Row>
+  <div className="col mb-5">
+    <div className="card h-100">
+      <img src="/images/imgportfolio/fresh-food.jpg" className="card-img-top" alt="asiette de légumes frais"/>
+          <div className="card-body text-center">
+              <h1 className="card-title ">Fresh food</h1>
+              <p className="card-text pb-5 mb-5">Réalisation d&apos;un site avec commande en ligne</p>
+             <div className=' btn-rounded-sm'>
+              <a href="https://petitprimeur.fr/" className="btn btn-primary bg-transparent text-primary stretched-link">Voir</a>
+              </div>
+          </div>
+          <div className="card-footer text-center">
+            <text className="text-muted">Site réalisé avec PHP et MySQL</text>
+          </div>
     </div>
+    </div>
+
+  <div className="col mb-5">
+    <div className="card h-100">
+      <img src="/images/imgportfolio/restaurant-japonais.jpg" className="card-img-top" alt="asiette de suchi"></img>
+      <div className="card-body text-center">
+        <h1 className="card-title ">Restaurant Akira</h1>
+        <p className="card-text pb-5 mb-5">Réalisaation d&apos;un site vitrine</p>
+        <div className=' btn-rounded-sm'>
+              <a href="https://www.sushishop.fr/fr/livraison/maki/" className="btn btn-primary bg-transparent text-primary ">Voir</a>
+              </div>
+      </div>
+      <div className="card-footer text-center">
+        <text className="text-muted">Site réalisé avec WordPress</text>
+      </div>
+    </div>
+    </div>
+
+
+  <div className="col mb-5">
+    <div className="card h-100">
+      <img src="/images/imgportfolio/espace-bien-etre.jpg" className="card-img-top" alt="espace de bien être"/>
+      <div className="card-body text-center">
+        <h1 className="card-title ">Espace de bien-être</h1>
+        <p className="card-text pb-5 mb-5">Réalisation d&apos;un site vitrine pour un praticien du bien-être</p>
+        <div className=' btn-rounded-sm pt-3       '>
+              <a href="https://espacedetentesante.fr/" className="btn btn-primary bg-transparent text-primary ">Voir</a>
+              </div>
+      </div>
+      <div className="card-footer text-center">
+        <text className="text-muted ">Site réalisé en HTML/CSS</text>
+      </div>
+    </div>
+  </div>
+</div>
+           </div>
 <Footer/>
         </section>
     );
