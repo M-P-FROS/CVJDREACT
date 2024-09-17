@@ -31,9 +31,12 @@
     
 }
 
-.btn{
+.navbar{
+    background-color: #444;
+}
+.homebtn{
     background-color: #0d6efd;
-    color: white;
+    border-color:#0d6efd;
     position: absolute;
         top: 80%;
         left: 50%; 
@@ -60,6 +63,9 @@
 }
 .mescompetences{
     background-color: white;
+    .imgjd{
+        border-radius: 15%;
+    }
    
 }
 

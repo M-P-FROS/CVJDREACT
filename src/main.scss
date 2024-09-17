@@ -3,6 +3,8 @@
 
 
 /*GLOBAL*/
+
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
@@ -58,4 +60,21 @@ font-style: italic;
         max-height: 100%;
     }
 }
+
+.map{
+    iframe{
+        width:100%;
+        height:"400";
+       }
+}
+
+.portfoliobtn{
+        border-color:#0d6efd;
+        border-width:5px;
+        border-radius:10%;      
+        font-size: 02vw;      
+    }
+
+
+
 //@import '~bootstrap/scss/bootstrap';

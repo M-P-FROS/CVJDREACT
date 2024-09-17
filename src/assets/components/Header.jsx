@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className='navbar'>
         <nav
-     className="navbar navbar-expand-lg bg-secondary text-light text-uppercase fixed-top"
+     className="navbar navbar-expand-lg text-light text-uppercase fixed-top"
      id="mainNav"
    >
      <div className="container">
