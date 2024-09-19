@@ -1,8 +1,4 @@
-@import "./sass/app";
-@import"./sass/home";
 
-
-/*GLOBAL*/
 
 
 body {
@@ -64,7 +60,7 @@ font-style: italic;
 .map{
     iframe{
         width:100%;
-        height:"400";
+        height:100%;
        }
 }
 
@@ -74,7 +70,88 @@ font-style: italic;
         border-radius:10%;      
         font-size: 02vw;      
     }
+    .hero{
+        position: relative;
+        display:flex;
+      
+        h1 {
+            position: absolute;
+            top: 40%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 05vw;
+            font-weight: bold;
+            text-align: center;
+        }
+    
+        h2{ position: absolute;
+            top: 60%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 04vw;
+            font-weight: bold;
+        }
+      
+        img {
+            width: 100%;
+            height: auto;
+    
+        }
+        
+    }
+    
+    .navbar{
+        background-color: #444;
+        }
+    
+        .nav-item{
+            background-color: #444;
+        }
+    
+    .homebtn{
+        background-color: #0d6efd;
+        border-color:#0d6efd;
+        position: absolute;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 03vw;
+            text-align: center;
+    }
+    
+    .banner{
+        img{
+          min-height: max-content;
+            width:100%;
+        }
+        
+    }
+    
+    .herobis{
+        background-color: #EEE;
+        font-size: 1.9vw;
+    }
+    .apropos{
+        background-color: white;
+    }
+    .mescompetences{
+        background-color: white;
+        .imgjd{
+            border-radius: 15%;
+        }
+       
+    }
+    
+    .blog{
+        .a{
+            font-size: 00.5vw;;
+        }
+    }
+    
+    .app{
+        color:black;
+        font-weight: bold;
+    }    
 
-
-
-//@import '~bootstrap/scss/bootstrap';

@@ -18,8 +18,9 @@ const Blog = () => {
         <div className='Blogcard'>
         <div className="row row-cols-1 row-cols-md-2  row-cols-lg-3 g-3">
 
-  
+        
           <div className="col mb-5">
+                <article id="artcoder"></article>
                   <div className="card h-100">
                             <img src="/images/imgblog/coder.jpg" className="card-img-top" alt="image écran avec du code"/>
                   <div className="card-body ">
@@ -30,12 +31,15 @@ const Blog = () => {
                             </div>
                             </div>            
                   <div className="card-footer">
-                          <text className="text-muted">Publié le 22 août 2022</text>
+                          <p className="text-muted">Publié le 22 août 2022</p>
                           </div>
                   </div>
+                  
                   </div>
+                  
 
-        <div className="col mb-5">
+        <div className="col mb-5 id=art2">
+        <article id="artvendre"></article>
                 <div className="card h-100">
                   <img src="/images/imgblog/croissance.jpg" className="card-img-top" alt="Pile de pièces de monnaie"/>
                 <div className="card-body ">
@@ -46,13 +50,14 @@ const Blog = () => {
                           </div>
                           </div>            
                 <div className="card-footer">
-                        <text className="text-muted">Publié le 20 août 2022</text>
+                        <p className="text-muted">Publié le 20 août 2022</p>
                         </div>
                 </div>
                 </div>
 
         <div className="col mb-5">
             <div className="card h-100">
+            <article id="artrealiser"></article>
               <img src="/images/imgblog/google.jpg" className="card-img-top" alt="image écran avec le requeteur google"/>
             <div className="card-body ">
                       <h1 className="card-title">Se positionner sur google</h1>
@@ -62,7 +67,7 @@ const Blog = () => {
                       </div>
                       </div>            
             <div className="card-footer">
-                    <text className="text-muted">Publié le 1août 2022</text>
+                    <p className="text-muted">Publié le 1août 2022</p>
                     </div>
               </div>
               </div>
@@ -78,7 +83,7 @@ const Blog = () => {
                     </div>
                     </div>            
             <div className="card-footer">
-                    <text className="text-muted">Publié le 31 juillet 2022</text>
+                    <p className="text-muted">Publié le 31 juillet 2022</p>
                     </div>
               </div>
               </div>
@@ -94,7 +99,7 @@ const Blog = () => {
                     </div>
                     </div>            
             <div className="card-footer">
-                    <text className="text-muted">Publié le 30 juillet 2022</text>
+                    <p className="text-muted">Publié le 30 juillet 2022</p>
                   </div>
               </div>
               </div>
@@ -110,7 +115,7 @@ const Blog = () => {
                     </div>
                     </div>            
             <div className="card-footer">
-                    <text className="text-muted">Publié le 12 juillet 2022</text>
+                    <p className="text-muted">Publié le 12 juillet 2022</p>
                   </div>
               </div>
               </div>    

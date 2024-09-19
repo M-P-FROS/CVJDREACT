@@ -11,15 +11,18 @@ import Button from 'react-bootstrap/Button';
 
 const Contacts = () => {
     return (
-  <section id="contacts ">
+  <section id="contacts">
             <Header/>
             <Banner/>
-      <div className="card">      
-            <img src="images/contact-bg.jpg" className="card-img background-image img-fluid" alt="Enveloppes courrier sur clavier ordinateur"/>
-        <div className="card-img-overlay">
+   
 
             <Container>
-            <Row>
+         
+            <div className="card h-100">      
+            <img src="images/contact-bg.jpg" className="card-img background-image img-fluid" alt="Enveloppes courrier sur clavier ordinateur"/>
+            <div className="card-img-overlay">
+          
+            <Row className='p-5'>
               
               <Col xs={12} sm={12} lg={12} className="justify-content-center pt-2 bg-white">                  
               <div className='titre'>  
@@ -38,7 +41,7 @@ const Contacts = () => {
                 <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Control className="mb-3"   type="email" size="sm" placeholder="Votre adresse mail :name@example.fr" />
                 </Form.Group>
-                <Form.Control className="mb-3"   type="phone" size="sm" placeholder="Votre numéro de téléphone" />
+                <Form.Control className="mb-3"  size="sm" placeholder="Votre numéro de téléphone" />
                 <Form.Group  controlId="exampleForm.ControlTextarea1">
                 <Form.Control className="mb-3"  type="text" size="sm" placeholder="Sujet" />
                 <Form.Control  size="sm" placeholder="Votre message" as="textarea" rows={4} />
@@ -57,7 +60,7 @@ const Contacts = () => {
               <p className='border-bottom border-primary '></p>
               <adress>
               <i className='fas fa-map-marker'></i>40 Rue Laure Diebold, 69 009 Lyon, France<br/>
-              <i className='fas fa-moile-alt'></i> tel: 06 20 30 40 50<br/>
+              <i className='fas fa-mobile-alt'></i> tel: 06 20 30 40 50<br/>
               </adress>
               </div>  
              
@@ -75,9 +78,10 @@ const Contacts = () => {
               </Col>
              
             </Row>
-            </Container>
-        </div>
+              </div>
       </div>
+            </Container>
+      
         <Footer/>
   </section>
     );

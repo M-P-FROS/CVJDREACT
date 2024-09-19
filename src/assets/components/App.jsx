@@ -6,6 +6,7 @@ import Services from "../../pages/Services";
 import Realisations from "../../pages/Realisations";
 import Blog from "../../pages/Blog";
 import Contacts from "../../pages/Contacts";
+import Mentions from '../../pages/Mentions';
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
                 <Route path="/realisations" element ={<Realisations/>}> </Route>
                 <Route path="/blog" element ={<Blog/>}> </Route>
                 <Route path="/contacts" element ={<Contacts/>}> </Route>
+                <Route path="/mentions" element ={<Mentions/>}> </Route>
             </Routes>
            </div>
     
