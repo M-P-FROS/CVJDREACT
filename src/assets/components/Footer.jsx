@@ -17,7 +17,7 @@ const Footer = () => {
                   <br />
                     69009 Lyon, France         
                     </address>               
-                    <phone>Tel : 06 20 30 40 50 </phone>
+                    <i className='fas fa-mobile-alt'>Tel : 06 20 30 40 50</i>
 
                 <Row>
                     <Col className='d-flex justify-content-start'>

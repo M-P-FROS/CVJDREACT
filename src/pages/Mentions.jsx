@@ -23,7 +23,7 @@ const Mentions = () => {
                                 40 rue Laure Diebold<br></br>
                                 69009 Lyon, France         
                                 </address>
-                                <phone className="m-0 p-0">Tel : 06 20 30 40 50 </phone>
+                                <i className='fas fa-mobile-alt'>Tel : 06 20 30 40 50</i>
                                 <br />
                                 <a href="mailto:john.doe@gmail.com">mail: john.doe@gmail.com</a>                   
                             </Accordion.Body>

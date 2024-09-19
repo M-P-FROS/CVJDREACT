@@ -5,12 +5,12 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Header = () => {
     return (
-        <div className='navbar d-flex flex-row fixed-top'>
+        <div className='navbar d-flex flex-row '>
         <nav
      className="navbar navbar-expand-lg text-light text-uppercase fixed-top"
      id="mainNav">
       
-     <Container classfixed-top>       
+     <Container>       
        <Navbar.Brand className=" d-flex text-light" href="/">
         <img
         src="/favicon.png"

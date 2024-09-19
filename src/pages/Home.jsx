@@ -7,7 +7,6 @@ import Col from 'react-bootstrap/Col';
 import {ProgressBar} from 'react-bootstrap';
 
 
-import '../sass/home.scss'
 
 
 const Home = () => {

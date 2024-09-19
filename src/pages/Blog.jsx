@@ -31,7 +31,7 @@ const Blog = () => {
                             </div>
                             </div>            
                   <div className="card-footer">
-                          <text className="text-muted">Publié le 22 août 2022</text>
+                          <p className="text-muted">Publié le 22 août 2022</p>
                           </div>
                   </div>
                   
@@ -50,7 +50,7 @@ const Blog = () => {
                           </div>
                           </div>            
                 <div className="card-footer">
-                        <text className="text-muted">Publié le 20 août 2022</text>
+                        <p className="text-muted">Publié le 20 août 2022</p>
                         </div>
                 </div>
                 </div>
@@ -67,7 +67,7 @@ const Blog = () => {
                       </div>
                       </div>            
             <div className="card-footer">
-                    <text className="text-muted">Publié le 1août 2022</text>
+                    <p className="text-muted">Publié le 1août 2022</p>
                     </div>
               </div>
               </div>
@@ -83,7 +83,7 @@ const Blog = () => {
                     </div>
                     </div>            
             <div className="card-footer">
-                    <text className="text-muted">Publié le 31 juillet 2022</text>
+                    <p className="text-muted">Publié le 31 juillet 2022</p>
                     </div>
               </div>
               </div>
@@ -99,7 +99,7 @@ const Blog = () => {
                     </div>
                     </div>            
             <div className="card-footer">
-                    <text className="text-muted">Publié le 30 juillet 2022</text>
+                    <p className="text-muted">Publié le 30 juillet 2022</p>
                   </div>
               </div>
               </div>
@@ -115,7 +115,7 @@ const Blog = () => {
                     </div>
                     </div>            
             <div className="card-footer">
-                    <text className="text-muted">Publié le 12 juillet 2022</text>
+                    <p className="text-muted">Publié le 12 juillet 2022</p>
                   </div>
               </div>
               </div>    
