@@ -18,13 +18,13 @@ const Realisations = () => {
         <div className='Realisationcard'>
         <div className="row row-cols-1 row-cols-md-2  row-cols-lg-3 g-4">
 
-            <div className="col mb-5">
+            <div id="freshfood" className="col mb-5">
               <div className="card h-100">
                 <img src="/images/imgportfolio/fresh-food.jpg" className="card-img-top" alt="assiette de légumes frais"/>
                     <div className="card-body text-center">
                       <h1 className="card-title ">Fresh food</h1>
                       <p className="card-text  fs-4">Réalisation d&apos;un site avec commande en ligne</p>
-                      <a className='portfoliobtn btn text-primary mb-2' href="https://petitprimeur.fr/" >Voir</a>
+                      <a className='portfoliobtn btn text-primary mb-2' target="_blank" href="https://petitprimeur.fr/" >Voir</a>
                     </div>
                     <div className="card-footer text-center">
                       <text className="fs-4">Site réalisé avec PHP et MySQL</text>
@@ -33,14 +33,14 @@ const Realisations = () => {
             </div>
   
 
-          <div className="col mb-5">
+          <div id="akira"className="col mb-5">
             <div className="card h-100">
               <img src="/images/imgportfolio/restaurant-japonais.jpg" className="card-img-top" alt="assiette de suchi"></img>
               <div className="card-body text-center">
                 <h1 className="card-title ">Restaurant Akira</h1>
                 <p className="card-text fs-4">Réalisation d&apos;un site vitrine</p>
                 <br className='fs-4'></br>
-                <a className='portfoliobtn btn text-primary mb-2' href= "https://www.sushishop.fr/fr/livraison/maki/" >Voir</a>
+                <a className='portfoliobtn btn text-primary mb-2' target="_blank" href= "https://www.sushishop.fr/fr/livraison/maki/" >Voir</a>
                 </div>
                 <div className="card-footer text-center">
                 <text className="fs-4">Site réalisé avec WordPress</text>
@@ -48,13 +48,13 @@ const Realisations = () => {
             </div>
             </div>
   
-          <div className="col mb-5">
+          <div id="espace" className="col mb-5">
             <div className="card h-100">
               <img src="/images/imgportfolio/espace-bien-etre.jpg" className="card-img-top" alt="espace de bien être"/>
               <div className="card-body text-center">
                 <h1 className="card-title ">Espace de bien-être</h1>
                 <p className="card-text fs-4">Réalisation d&apos;un site vitrine pour un praticien du bien-être</p>
-                <a className='portfoliobtn btn text-primary mb-2' href= "https://espacedetentesante.fr/" >Voir</a>
+                <a className='portfoliobtn btn text-primary mb-2' target="_blank" >Voir</a>
               </div>
               <div className="card-footer text-center">
                 <text className="fs-4">Site réalisé en HTML/CSS</text>

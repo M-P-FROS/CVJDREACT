@@ -11,15 +11,18 @@ import Button from 'react-bootstrap/Button';
 
 const Contacts = () => {
     return (
-  <section id="contacts ">
+  <section id="contacts">
             <Header/>
             <Banner/>
-      <div className="card">      
-            <img src="images/contact-bg.jpg" className="card-img background-image img-fluid" alt="Enveloppes courrier sur clavier ordinateur"/>
-        <div className="card-img-overlay">
+   
 
             <Container>
-            <Row>
+         
+            <div className="card h-100">      
+            <img src="images/contact-bg.jpg" className="card-img background-image img-fluid" alt="Enveloppes courrier sur clavier ordinateur"/>
+            <div className="card-img-overlay">
+          
+            <Row className='p-5'>
               
               <Col xs={12} sm={12} lg={12} className="justify-content-center pt-2 bg-white">                  
               <div className='titre'>  
@@ -75,9 +78,10 @@ const Contacts = () => {
               </Col>
              
             </Row>
-            </Container>
-        </div>
+              </div>
       </div>
+            </Container>
+      
         <Footer/>
   </section>
     );
