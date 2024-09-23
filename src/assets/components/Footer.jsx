@@ -49,15 +49,13 @@ const Footer = () => {
          <Col sm={12} md={6} lg={3}>
               <h4 className='mt-3'>Mes réalisations</h4>
               <ul className='mt-3'>
-              <li > 
+              <li className='mb-3' > 
               <a href="https://petitprimeur.fr/" target="_blank" className='text-dark text-decoration-none'>Fresh food</a>
               </li>
-              <br />
-              <li > 
+              <li className='mb-3'> 
               <a href= "https://www.sushishop.fr/fr/livraison/maki/" target="_blank" className='text-dark text-decoration-none '>Restaurant Akira</a>
               </li>
-              <br />
-              <li > 
+              <li className='mb-3'> 
               <a href= "https://espacedetentesante.fr/" target="_blank" className='text-dark text-decoration-none '>Espace bien-être</a>
               </li>
               </ul>
@@ -67,15 +65,13 @@ const Footer = () => {
               <h4 className='mt-3'>Mes derniers articles</h4>
               <Nav defaultActiveKey="/home" className="flex-column">
               <ul>
-                <li > 
+                <li className='mb-3' > 
                 <a href="https://getbootstrap.com/docs/4.0/components/card/" className='text-dark text-decoration-none'>Coder son site en HTML/CSS</a>
                 </li>
-                <br />
-                <li > 
+                <li className='mb-3'> 
                 <a href="https://getbootstrap.com/docs/4.0/components/card/" className='text-dark text-decoration-none '>Vendre ses produits sur le site WEB</a>
                 </li>
-                <br />
-                <li > 
+                <li className='mb-3' > 
                 <a href="https://getbootstrap.com/docs/4.0/components/card/" className='text-dark text-decoration-none '>Se positionner sur google</a>
                 </li>
             </ul>
