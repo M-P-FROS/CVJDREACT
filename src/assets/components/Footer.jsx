@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 const Footer = () => {
     
     return (
-    <section className='footer'>
+    <section className='footer d-flex flex row'>
     <Container className='bg-light text-dark '>
           <Row >
           <Col sm={12} md={6} lg={3}>
