@@ -1,0 +1,142 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  background-color: #EEE;
+  color: #444;
+}
+body strong {
+  font-weight: 600;
+}
+body h1 {
+  color: #1e1e1e;
+  font-weight: 600;
+}
+body h2 {
+  color: #1e1e1e;
+  font-weight: 600;
+}
+body h3 {
+  color: #1e1e1e;
+  font-weight: 600;
+}
+body h4 {
+  color: #1e1e1e;
+  font-weight: 600;
+}
+body h5 {
+  color: #1e1e1e;
+  font-weight: 600;
+}
+body h6 {
+  color: #1e1e1e;
+  font-weight: 600;
+}
+body .italic {
+  font-style: italic;
+}
+body hr {
+  border: none;
+  color: #0d6efd;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+.bascard {
+  background-color: #EEE;
+}
+
+.contacts .cards {
+  background-size: 20px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.portfoliobtn {
+  border-color: #0d6efd;
+  border-width: 5px;
+  border-radius: 10%;
+  font-size: 2vw;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+}
+.hero h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+}
+.hero h2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4vw;
+  font-weight: bold;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  background-color: #444;
+}
+
+.nav-item {
+  background-color: #444;
+}
+
+.homebtn {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.banner img {
+  min-height: max-content;
+  width: 100%;
+}
+
+.herobis {
+  background-color: #EEE;
+  font-size: 1.9vw;
+}
+
+.apropos {
+  background-color: white;
+}
+
+.mescompetences {
+  background-color: white;
+}
+.mescompetences .imgjd {
+  border-radius: 15%;
+}
+
+.blog .a {
+  font-size: 0.5vw;
+}
+
+.app {
+  color: black;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
