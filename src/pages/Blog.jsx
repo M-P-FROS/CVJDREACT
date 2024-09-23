@@ -22,7 +22,7 @@ const Blog = () => {
           <div className="col mb-5">
                 <article id="artcoder"></article>
                   <div className="card h-100">
-                            <img src="/images/imgblog/coder.jpg" className="card-img-top" alt="image écran avec du code"/>
+                            <img src="/images/imgblog/coder.jpg" className="card-img-top" target="_blank" alt="image écran avec du code"/>
                   <div className="card-body ">
                             <h1 className="card-title">Coder son site en HTML / CSS</h1>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulck of the card&apos;s content.</p>
@@ -41,7 +41,7 @@ const Blog = () => {
         <div className="col mb-5 id=art2">
         <article id="artvendre"></article>
                 <div className="card h-100">
-                  <img src="/images/imgblog/croissance.jpg" className="card-img-top" alt="Pile de pièces de monnaie"/>
+                  <img src="/images/imgblog/croissance.jpg" className="card-img-top" target="_blank" alt="Pile de pièces de monnaie"/>
                 <div className="card-body ">
                           <h1 className="card-title">Vendre ses produits sur le web</h1>             
                           <p className="card-text ">Some quick example text to build on the card title and make up the bulck of the card&apos;s content.</p>
@@ -58,7 +58,7 @@ const Blog = () => {
         <div className="col mb-5">
             <div className="card h-100">
             <article id="artrealiser"></article>
-              <img src="/images/imgblog/google.jpg" className="card-img-top" alt="image écran avec le requeteur google"/>
+              <img src="/images/imgblog/google.jpg" className="card-img-top" target="_blank" alt="image écran avec le requeteur google"/>
             <div className="card-body ">
                       <h1 className="card-title">Se positionner sur google</h1>
                       <p className="card-text">Some quick example text to build on the card title and make up the bulck of the card&apos;s content.</p>
@@ -74,7 +74,7 @@ const Blog = () => {
 
         <div className="col mb-5">
             <div className="card h-100">
-                    <img src="/images/imgblog/screens.jpg" className="card-img-top" alt="image écran avec du code"/>
+                    <img src="/images/imgblog/screens.jpg" className="card-img-top" target="_blank" alt="image écran avec du code"/>
             <div className="card-body ">
                     <h1 className="card-title">Coder en responsive design</h1>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulck of the card&apos;s content.</p>
@@ -90,7 +90,7 @@ const Blog = () => {
 
         <div className="col mb-5">
             <div className="card h-100">
-                  <img src="/images/imgblog/seo.jpg" className="card-img-top" alt="image grahique SEO avec des mots en lien avec le SEO"/>
+                  <img src="/images/imgblog/seo.jpg" className="card-img-top" target="_blank" alt="image grahique SEO avec des mots en lien avec le SEO"/>
             <div className="card-body ">
                     <h1 className="card-title">Technique de référencement</h1>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulck of the card&apos;s content.</p>
@@ -106,7 +106,7 @@ const Blog = () => {
 
         <div className="col mb-5">
             <div className="card h-100">
-                  <img src="/images/imgblog/technos.png" className="card-img-top" alt="mosaique avec tous les types de langage"/>
+                  <img src="/images/imgblog/technos.png" className="card-img-top" target="_blank" alt="mosaique avec tous les types de langage"/>
             <div className="card-body ">
                     <h1 className="card-title">Apprendre à coder </h1>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulck of the card&apos;s content.</p>

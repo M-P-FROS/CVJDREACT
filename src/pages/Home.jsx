@@ -13,7 +13,7 @@ const Home = () => {
     return (
 <section>
         <Header />
-        <main>
+        <div>
           <div className='hero'>
           <img src="images/imghero/hero-bg.jpg" className="img-fluid pb-3" alt="informaticien sur son poste de travail..."/>
             <h1 className='background-size:cover'>Bonjour, je suis John DOE</h1>
@@ -62,7 +62,7 @@ const Home = () => {
           </Row>
           </Container>    
           </div>     
-          </main>
+          </div>
         <Footer/>      
 </section>
     );
